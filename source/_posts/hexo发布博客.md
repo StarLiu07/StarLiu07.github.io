@@ -25,6 +25,8 @@ categories:
 
 打开github找到你之前搭建的仓库(这里默认已经搭好了),然后创建新分支hexo:
 
+{% asset_img 创建分支.png 创建分支 %}
+
 ![创建分支](hexo发布博客/创建分支.png)
 
 ### 2.将hexo设置为默认分支
@@ -46,6 +48,8 @@ categories:
 > git clone ssh
 
 clone后面的ssh就是在github仓库的Code里面可以直接复制
+
+{% asset_img ssh.png ssh %}
 
 ![ssh](hexo发布博客/ssh.png)
 
