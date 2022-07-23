@@ -27,15 +27,11 @@ categories:
 
 {% asset_img 创建分支.png 创建分支 %}
 
-![创建分支](hexo发布博客/创建分支.png)
-
 ### 2.将hexo设置为默认分支
 
 创建好了hexo分支后,还要把它设置成默认分支,找到Settings(设置),找到branchs(分支),然后切换默认分支为hexo:
 
 {% asset_img 设置默认分支.png 设置默认分支 %}
-
-![设置默认分支](hexo发布博客/设置默认分支.png)
 
 ## 二.把hexo分支上的内容clone到本地
 
@@ -50,8 +46,6 @@ categories:
 clone后面的ssh就是在github仓库的Code里面可以直接复制
 
 {% asset_img ssh.png ssh %}
-
-![ssh](hexo发布博客/ssh.png)
 
 这个时候你就可以在本地写博客了.
 
