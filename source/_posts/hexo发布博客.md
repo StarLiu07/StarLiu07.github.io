@@ -25,13 +25,13 @@ categories:
 
 打开github找到你之前搭建的仓库(这里默认已经搭好了),然后创建新分支hexo:
 
-![image-20220723180149093](hexo发布博客/image-20220723180149093.png)
+![创建分支](/images/创建分支.png)
 
 ### 2.将hexo设置为默认分支
 
 创建好了hexo分支后,还要把它设置成默认分支,找到Settings(设置),找到branchs(分支),然后切换默认分支为hexo:
 
-![image-20220723180444750](hexo发布博客/image-20220723180444750.png)
+![设置默认分支](/images/设置默认分支.png)
 
 ## 二.把hexo分支上的内容clone到本地
 
@@ -45,7 +45,7 @@ categories:
 
 clone后面的ssh就是在github仓库的Code里面可以直接复制
 
-![image-20220723190139597](hexo发布博客/image-20220723190139597.png)
+![ssh](/images/ssh.png)
 
 这个时候你就可以在本地写博客了.
 
