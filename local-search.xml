@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>C++中的递增/减运算符(++,--)</title>
+    <link href="/2022/11/06/C-%E4%B8%AD%E7%9A%84%E9%80%92%E5%A2%9E-%E5%87%8F%E8%BF%90%E7%AE%97%E7%AC%A6-1/"/>
+    <url>/2022/11/06/C-%E4%B8%AD%E7%9A%84%E9%80%92%E5%A2%9E-%E5%87%8F%E8%BF%90%E7%AE%97%E7%AC%A6-1/</url>
+    
+    <content type="html"><![CDATA[<h3 id="递增-x2F-减运算符的用法"><a href="#递增-x2F-减运算符的用法" class="headerlink" title="递增&#x2F;减运算符的用法"></a>递增&#x2F;减运算符的用法</h3><p>C++中的递增&#x2F;减运算符可以对变量的值进行+1或者-1的操作。在下面的代码中，我们把x的值+1，而把y的值-1.  </p><pre><code class="hljs">int x = y = 0;//用a 和 b 分别存储x++和y--的值int a = x++;int b = y--;cout &lt;&lt; &quot;a = &quot; &lt;&lt; a &lt;&lt; endl;cout &lt;&lt; &quot;b = &quot; &lt;&lt; b &lt;&lt; endl;cout &lt;&lt; &quot;x = &quot; &lt;&lt; x &lt;&lt; endl;cout &lt;&lt; &quot;y = &quot; &lt;&lt; y &lt;&lt; endl;</code></pre><p>那么你觉得上面的语句的输出会是什么?  会是下面这样吗？</p><pre><code class="hljs">a = 1b = -1x = 1y = -1</code></pre><p>但是很遗憾，这样的输出是错的。正确的输出应该是下面这样的：  </p><pre><code class="hljs">a = 0b = 0x = 1y = -1</code></pre><p>是否有点吃惊呢，不过我们讨论的重点应该是——为什么会这样？</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>vscode配置Cpp</title>
     <link href="/2022/07/24/vscode%E9%85%8D%E7%BD%AEC/"/>
     <url>/2022/07/24/vscode%E9%85%8D%E7%BD%AEC/</url>
